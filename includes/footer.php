@@ -14,6 +14,12 @@
     </div>
 </footer>
 <script src="assets/js/script.js"></script>
+<script type="module">
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/12.12.1/firebase-app.js";
+
+    // Const Firebase here pls
+
+    initializeApp(firebaseConfig);
+</script>
 </body>
 </html>
-
